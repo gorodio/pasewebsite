@@ -270,8 +270,8 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #000;
-    background: url() no-repeat bottom center scroll;
+    color: #fff;
+    background: url(../img/sandiego.jpg) no-repeat bottom center scroll;
     background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
