@@ -236,7 +236,7 @@ a:focus {
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
-        background: 0 0;
+        background: #fff;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -247,6 +247,21 @@ a:focus {
         border-bottom: 1px solid rgba(255,255,255,.3);
         background: #fff;
     }
+}
+
+.intro2 {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 200px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/spacebackground.jpg) no-repeat bottom center scroll;
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .intro {
@@ -367,31 +382,37 @@ a:focus {
     }
 }
 
-
 .event-section {
-    padding-top: 50px;
-    background: url() no-repeat bottom center scroll;
+    width: 100%;
+    padding-top: 100px;
+    background: url(../img/starry.jpg) no-repeat bottom center scroll;
 }
 
 .about-section {
-    padding-top: 50px;
-    background: url() no-repeat bottom center scroll;
+    width: 100%;
+    padding-top: 100px;
+    background: url(../img/starry.jpg) no-repeat bottom center scroll;
 }
 .contact-section {
-    background: url() no-repeat bottom center scroll;
-    padding-top: 50px;
+    width: 100%;
+    padding-top: 100px;
+    background: url(../img/starry.jpg) no-repeat bottom center scroll;
+}
+
+.content-section {
+    padding-top: 100px;
 }
 
 @media(min-width:767px) {
     .about-section {
-        padding-top: 50px;
+        padding-top: 100px;
     }
 
     .event-section {
-        padding-top: 50px;
+        padding-top: 100px;
     }
     .contact-section {
-        padding-top: 50px;
+        padding-top: 100px;
     }
 
 }
