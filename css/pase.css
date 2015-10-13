@@ -154,7 +154,8 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #fff;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -163,7 +164,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #686868;
 }
 
 .light {
@@ -466,14 +467,15 @@ ul.banner-social-buttons {
 footer {
     padding: 150px 0;
     margin: 0 0 35px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
+    font-family: Times;
+    font-weight: 200;
+    letter-spacing: 0px;
     color: #686868;
 }
 
 footer p {
     margin: 0;
+    font-size: 20px;
 }
 
 ::-moz-selection {
