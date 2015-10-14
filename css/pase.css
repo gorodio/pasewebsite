@@ -158,7 +158,8 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/sandiego.jpg) no-repeat bottom center scroll;
+    background: url(../img/hepnerhall.jpg) no-repeat bottom center scroll;
+    background-size: 80%;
     background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -351,7 +352,7 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 150px 0;
+    padding: 25px 0;
     margin: 0 0 35px;
     font-family: Times;
     font-weight: 200;
