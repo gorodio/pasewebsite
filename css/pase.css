@@ -303,6 +303,11 @@ a:focus {
         padding-top: 100px;
     }
 
+    .content-section {
+        width: 100%;
+        padding-top: 100px;
+    }
+
 }
 
 .btn {
