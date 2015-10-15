@@ -288,24 +288,24 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    width: 100%;
+    padding-top: 50px;
 }
 
 @media(min-width:767px) {
     .about-section {
-        padding-top: 50px;
+        padding-top: 100px;
     }
 
     .event-section {
-        padding-top: 50px;
+        padding-top: 100px;
     }
     .contact-section {
-        padding-top: 50px;
+        padding-top: 100px;
     }
 
     .content-section {
         width: 100%;
-        padding-top: 50px;
     }
 
 }
