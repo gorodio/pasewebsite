@@ -293,19 +293,19 @@ a:focus {
 
 @media(min-width:767px) {
     .about-section {
-        padding-top: 100px;
+        padding-top: 50px;
     }
 
     .event-section {
-        padding-top: 100px;
+        padding-top: 50px;
     }
     .contact-section {
-        padding-top: 100px;
+        padding-top: 50px;
     }
 
     .content-section {
         width: 100%;
-        padding-top: 100px;
+        padding-top: 50px;
     }
 
 }
