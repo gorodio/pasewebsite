@@ -33,10 +33,12 @@ p {
 @media(min-width:768px) {
     p {
         margin: 0 0 35px;
-        font-size: 20px;
+        font-size: 10px;
         line-height: 1.6;
     }
 }
+
+c
 
 a {
     color: #fff;
@@ -292,6 +294,7 @@ a:focus {
     padding-top: 50px;
 }
 
+
 @media(min-width:767px) {
     .about-section {
         padding-top: 100px;
@@ -306,10 +309,10 @@ a:focus {
 
     .content-about-section {
         width: 100%;
-        padding-top: 20px;
     }
 
 }
+
 
 .btn {
     border-radius: 0;
