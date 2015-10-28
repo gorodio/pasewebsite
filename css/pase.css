@@ -33,7 +33,7 @@ p {
 @media(min-width:768px) {
     p {
         margin: 0 0 35px;
-        font-size: 10px;
+        font-size: 20px;
         line-height: 1.6;
     }
 }
@@ -144,7 +144,7 @@ a:focus {
     padding-bottom: 50px;
     text-align: center;
     color: #fff;
-    background: url(../img/spacebackground.jpg) no-repeat bottom center scroll;
+    background: url(../img/hepnerhall.jpg) no-repeat top center scroll;
     background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -160,7 +160,6 @@ a:focus {
     text-align: center;
     color: #fff;
     background: url(../img/hepnerhall.jpg) no-repeat bottom center scroll;
-    background-size: 80%;
     background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -274,18 +273,18 @@ a:focus {
 .event-section {
     width: 100%;
     padding-top: 100px;
-    background: url(../img/starry.jpg) no-repeat bottom center scroll;
+    background: url(../img/hepnerhall.jpg) no-repeat bottom center scroll;
 }
 
 .about-section {
     width: 100%;
     padding-top: 100px;
-    background: url(../img/starry.jpg) no-repeat bottom center scroll;
+    background: url(../img/hepnerhall.jpg) no-repeat bottom center scroll;
 }
 .contact-section {
     width: 100%;
     padding-top: 100px;
-    background: url(../img/starry.jpg) no-repeat bottom center scroll;
+    background: url(../img/hepnerhall.jpg) no-repeat bottom center scroll;
 }
 
 .content-about-section {
@@ -308,7 +307,6 @@ a:focus {
     }
 
 }
-
 
 .btn {
     border-radius: 0;
