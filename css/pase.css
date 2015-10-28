@@ -135,6 +135,20 @@ a:focus {
     }
 }
 
+.pase-logo {
+    img {
+        max-width: 30%;
+        height: auto;
+    }    
+}
+
+@media(min-width:768px) {
+    img {
+        max-width: 50%;
+        height: auto;
+    }
+}
+
 .intro2 {
     display: table;
     width: 100%;
