@@ -135,12 +135,7 @@ a:focus {
     }
 }
 
-img {
-    max-width: 30%;
-    height: auto;    
-}
-
-@media(min-width:768px) {
+@media(max-width:768px) {
     img {
         max-width: 50%;
         height: auto;
