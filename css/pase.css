@@ -252,6 +252,15 @@ hr {
     -moz-animation-timing-function: linear;
 }
 
+.carousel-control {
+  opacity: .4;
+}
+
+.carousel-control:hover,
+.carousel-control:focus {
+  opacity: .6;
+}
+
 @-webkit-keyframes pulse {    
     0% {
         -webkit-transform: scale(1);
