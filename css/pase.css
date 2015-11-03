@@ -156,7 +156,7 @@ hr {
 
 
 @media(max-width:768px) {
-    img {
+    .front-page img {
         max-width: 50%;
         height: auto;
     }
