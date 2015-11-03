@@ -115,7 +115,7 @@ hr {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
     outline: 0;
-    background-color: transparent;
+    background-color: #fff;
 }
 
 .navbar-custom .nav li.active {
