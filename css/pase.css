@@ -4,11 +4,6 @@ body {
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #000;
     background-color: #fff;
-    -webkit-animation-name: text; /* Chrome, Safari, Opera */
-    	-webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
-    	animation-name: text;
-    	animation-duration: 2s;
-    	animation-iteration-count: 100000;
 }
 
 html {
@@ -40,62 +35,7 @@ p {
         margin: 0 0 35px;
         font-size: 18px;
         line-height: 1.6;
-        -webkit-animation-name: text; /* Chrome, Safari, Opera */
-    	-webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
-    	animation-name: text;
-    	animation-duration: 2s;
-    	animation-iteration-count: 100000;
     }
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes text {
-     0%   {background-color: yellow; bottom:0px;}
-    5%  {background-color: red; bottom:100px;}
-    10%   {background-color: yellow; bottom:0px;}
-    15%  {background-color: red; bottom:100px;}
-    20%   {background-color: yellow; bottom:0px;}
-    25%  {background-color: red; bottom:100px;}
-    30%  {background-color: red; bottom:100px;}
-    35%   {background-color: yellow; bottom:0px;}
-    40%  {background-color: red; bottom:100px;}
-    45%   {background-color: yellow; bottom:0px;}
-    50%  {background-color: red; bottom:100px;}
-    55%   {background-color: yellow; bottom:0px;}
-    60%  {background-color: red; bottom:100px;}
-    65%   {background-color: yellow; bottom:0px;}
-    70%  {background-color: red; bottom:100px;}
-    75%  {background-color: red; bottom:100px;}
-    80%   {background-color: yellow; bottom:0px;}
-    85%  {background-color: red; bottom:100px;}
-    90%   {background-color: yellow; bottom:0px;}
-    95%   {background-color: yellow; bottom:0px;}
-    100% {background-color: transparent; bottom:200px;}
-}
-
-/* Standard syntax */
-@keyframes text {
-    0%   {background-color: yellow; bottom:0px;}
-    5%  {background-color: red; bottom:100px;}
-    10%   {background-color: yellow; bottom:0px;}
-    15%  {background-color: red; bottom:100px;}
-    20%   {background-color: yellow; bottom:0px;}
-    25%  {background-color: red; bottom:100px;}
-    30%  {background-color: red; bottom:100px;}
-    35%   {background-color: yellow; bottom:0px;}
-    40%  {background-color: red; bottom:100px;}
-    45%   {background-color: yellow; bottom:0px;}
-    50%  {background-color: red; bottom:100px;}
-    55%   {background-color: yellow; bottom:0px;}
-    60%  {background-color: red; bottom:100px;}
-    65%   {background-color: yellow; bottom:0px;}
-    70%  {background-color: red; bottom:100px;}
-    75%  {background-color: red; bottom:100px;}
-    80%   {background-color: yellow; bottom:0px;}
-    85%  {background-color: red; bottom:100px;}
-    90%   {background-color: yellow; bottom:0px;}
-    95%   {background-color: yellow; bottom:0px;}
-    100% {background-color: transparent; bottom:200px;}
 }
 
 a {
