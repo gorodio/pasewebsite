@@ -48,6 +48,26 @@ h6 {
     letter-spacing: 1px;
 }
 
+#services-list-heading {
+    font-size: 18px;
+    color: red;
+}
+
+@media(min-width:768px) {
+    #services-list-heading {
+        font-size: 20px;
+        color: red;
+    }
+}
+
+.list-group-item {
+    border-color: black;
+}
+
+.list-group {
+    padding-bottom: 30px;
+}
+
 @media(min-width:768px) {
     .table thead {
         margin: 0 0 35px;
