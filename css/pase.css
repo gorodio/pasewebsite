@@ -214,7 +214,9 @@ hr {
     }
 }
 
-
+.front-page {
+    display: none;
+}
 
 @media(max-width:768px) {
     .front-page img {
